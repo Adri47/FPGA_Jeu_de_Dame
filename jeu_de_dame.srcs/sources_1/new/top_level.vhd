@@ -63,15 +63,6 @@ component VGA_bitmap_160x100 is
 
 end component;
 
-component select_color is  
-  port (
-    bp1 : in  std_logic;
-    bp2 : in  std_logic;
-    bp3 : in  std_logic;
-    couleur   : out std_logic_vector(2 downto 0)
-    );
-end component;
-
 component compteur is
   Port ( clk : in std_logic; 
          rst : in std_logic;
@@ -79,12 +70,25 @@ component compteur is
          );
 end component;
 
+component memoire is
+    Port ( r_w : in STD_LOGIC;
+           en_mem : in STD_LOGIC;
+           ce : in STD_LOGIC;
+           clk : in STD_LOGIC;
+           address_mem : in STD_LOGIC_VECTOR (13 downto 0);
+           data_out_mem : out STD_LOGIC_VECTOR (2 downto 0);
+           data_in_mem : in STD_LOGIC_VECTOR (2 downto 0)
+           );
+end component;
 
 signal data_write : std_logic;
 signal ADDR : std_logic_vector(13 downto 0);
 signal data_in : std_logic_vector(2 downto 0);
 signal data_out : std_logic_vector(2 downto 0);
 signal rst_not : std_logic;
+signal ce, en_mem, r_w : std_logic;
+signal data_in_mem, data_out_mem : STD_LOGIC_VECTOR (2 downto 0);
+signal couleur : std_logic_vector(2 downto 0);
 
 begin
 
@@ -107,15 +111,21 @@ port map (clk => clk,
           rst => rst_not,
           valeur => ADDR
           );
-          
-Sel_color : select_color
-port map(bp1 => bp1,
-         bp2 => bp2,
-         bp3 =>bp3,
-         couleur => data_in
-         );
-         
+
+MEM : memoire
+Port map  ( r_w => r_w,
+           en_mem => en_mem,
+           ce => ce,
+           clk => clk,
+           address_mem => ADDR,
+           data_out_mem => data_in,
+           data_in_mem => data_in_mem
+           );         
+           
 rst_not <= not(rst);
 data_write <= '1';
+ce <= '1';
+en_mem <= '1';
+r_w <= '0';
 
 end Behavioral;
