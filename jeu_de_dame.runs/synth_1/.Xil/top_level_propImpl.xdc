@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/Documents/ENSEIRB/Semestre_8/Projet_conception_numerique/jeu_de_dame/jeu_de_dame.srcs/constrs_1/new/fichier_de_contrainte.xdc rfile:../../../jeu_de_dame.srcs/constrs_1/new/fichier_de_contrainte.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/constrs_1/new/fichier_de_contrainte.xdc rfile:../../../jeu_de_dame.srcs/constrs_1/new/fichier_de_contrainte.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN E3    IOSTANDARD LVCMOS33 } [get_ports { clk }]; #IO_L12P_T1_MRCC_35 Sch=clk100mhz
 set_property src_info {type:XDC file:1 line:74 export:INPUT save:INPUT read:READ} [current_design]

@@ -60,25 +60,21 @@ proc step_failed { step } {
   close $ch
 }
 
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 3
-  set_param synth.incrementalSynthesisCache C:/Users/adrie/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25172-LAPTOP-G8QFLMSI/incrSyn
-  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7a50tcsg324-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir D:/Documents/ENSEIRB/Semestre_8/Projet_conception_numerique/jeu_de_dame/jeu_de_dame.cache/wt [current_project]
-  set_property parent.project_path D:/Documents/ENSEIRB/Semestre_8/Projet_conception_numerique/jeu_de_dame/jeu_de_dame.xpr [current_project]
-  set_property ip_output_repo D:/Documents/ENSEIRB/Semestre_8/Projet_conception_numerique/jeu_de_dame/jeu_de_dame.cache/ip [current_project]
+  set_property webtalk.parent_dir D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.cache/wt [current_project]
+  set_property parent.project_path D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.xpr [current_project]
+  set_property ip_output_repo D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet D:/Documents/ENSEIRB/Semestre_8/Projet_conception_numerique/jeu_de_dame/jeu_de_dame.runs/synth_1/top_level.dcp
-  read_xdc D:/Documents/ENSEIRB/Semestre_8/Projet_conception_numerique/jeu_de_dame/jeu_de_dame.srcs/constrs_1/new/fichier_de_contrainte.xdc
+  add_files -quiet D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.runs/synth_1/top_level.dcp
+  read_xdc D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/constrs_1/new/fichier_de_contrainte.xdc
   link_design -top top_level -part xc7a50tcsg324-1
   close_msg_db -file init_design.pb
 } RESULT]

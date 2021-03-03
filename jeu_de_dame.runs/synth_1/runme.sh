@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Documents/ENSEIRB/Semestre_8/Projet_conception_numerique/jeu_de_dame/jeu_de_dame.runs/synth_1'
+HD_PWD='D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

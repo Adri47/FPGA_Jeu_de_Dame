@@ -1,0 +1,12 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top_level'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/sources_1/new/vga_bitmap_160x100.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'VGA_bitmap_160x100'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/sources_1/new/compteur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'compteur'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/sources_1/new/select_color.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'select_color'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/sim_1/new/tb_compteur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_compteur'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top_level'

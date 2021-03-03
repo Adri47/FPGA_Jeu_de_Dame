@@ -2,9 +2,9 @@
 2019.2
 Nov  6 2019
 21:57:16
-D:/Documents/ENSEIRB/Semestre_8/Projet_conception_numerique/jeu_de_dame/jeu_de_dame.srcs/sim_1/new/tb_compteur.vhd,1614695639,vhdl,,,,cfg_tb_compteur;tb_compteur,,,,,,,,
-D:/Documents/ENSEIRB/Semestre_8/Projet_conception_numerique/jeu_de_dame/jeu_de_dame.srcs/sim_1/new/tb_top_level.vhd,1614701618,vhdl,,,,cfg_tb_top_level;tb_top_level,,,,,,,,
-D:/Documents/ENSEIRB/Semestre_8/Projet_conception_numerique/jeu_de_dame/jeu_de_dame.srcs/sources_1/new/compteur.vhd,1614695448,vhdl,,,,compteur,,,,,,,,
-D:/Documents/ENSEIRB/Semestre_8/Projet_conception_numerique/jeu_de_dame/jeu_de_dame.srcs/sources_1/new/select_color.vhd,1614697868,vhdl,,,,select_color,,,,,,,,
-D:/Documents/ENSEIRB/Semestre_8/Projet_conception_numerique/jeu_de_dame/jeu_de_dame.srcs/sources_1/new/top_level.vhd,1614701456,vhdl,,,,top_level,,,,,,,,
-D:/Documents/ENSEIRB/Semestre_8/Projet_conception_numerique/jeu_de_dame/jeu_de_dame.srcs/sources_1/new/vga_bitmap_160x100.vhd,1614699082,vhdl,,,,vga_bitmap_160x100,,,,,,,,
+D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/sim_1/new/tb_compteur.vhd,1614695639,vhdl,,,,cfg_tb_compteur;tb_compteur,,,,,,,,
+D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/sim_1/new/tb_top_level.vhd,1614701618,vhdl,,,,cfg_tb_top_level;tb_top_level,,,,,,,,
+D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/sources_1/new/compteur.vhd,1614695448,vhdl,,,,compteur,,,,,,,,
+D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/sources_1/new/select_color.vhd,1614697868,vhdl,,,,select_color,,,,,,,,
+D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/sources_1/new/top_level.vhd,1614755358,vhdl,,,,top_level,,,,,,,,
+D:/Documents/GitHub/FPGA_Jeu_de_Dame/jeu_de_dame.srcs/sources_1/new/vga_bitmap_160x100.vhd,1614699082,vhdl,,,,vga_bitmap_160x100,,,,,,,,
