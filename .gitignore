@@ -1,5 +1,4 @@
 *.pb
-*.log
 *.exe
 *.jou
 *.bit
@@ -8,12 +7,8 @@
 *.rpt
 *.wdf
 *.rtd
-*.wdf
-*.wdf
 *.wpc
 *.xml
-*.wpc
 *.rst
 *.log
-jeu_de_dame.sim/sim_1/behav/xsim/xsim.dir/tb_top_level_behav/xsimkernel.log
-*.wdf
+
